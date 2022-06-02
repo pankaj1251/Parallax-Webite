@@ -1,0 +1,55 @@
+@media screen and (max-width: 515px) {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .container-head {
+    font-size: 1.25rem;
+    font-family: monospace;
+  }
+  .nav {
+    height: 85px;
+  }
+
+  .nav ul li{
+    padding: 0;
+    text-align: center;
+    background-color: #251717;
+
+  }
+
+  .nav ul li:hover > ul{
+    display: block;
+    z-index: 1;
+    height: -webkit-fill-available;
+} 
+.nav ul li ul{
+  top: 49px;
+}
+.nav ul li ul li {
+  width: 100%;
+}
+  .img-head {
+    font-size: 0.844rem;
+    width: max-content;
+  }
+  .img1-head {
+    font-size: 13.5px;
+  }
+  .para1 {
+    font-size: 0.8rem;
+  }
+  .container {
+    padding: 25px 30px;
+  }
+
+  /* .nav ul {
+    position: absolute;
+    display: none;
+    z-index: 1;
+  } */
+  /* .menu img:hover .nav div ul {
+    display: block;
+  } */
+}
